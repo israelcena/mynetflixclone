@@ -1,9 +1,9 @@
 passo a passo para criação do clone do netflix
 
-- [ ] criação da estrutura de pastas
-- [ ] implementação do html inicial
+- [x] criação da estrutura de pastas
+- [x] implementação do html inicial
 - [ ] implementação do css.
-  - [ ] implementação de fonte aewsome para icones
+  - [x] implementação de fonte aewsome para icones
   - [ ] implementação do reset css
   - [ ] implementação das classes
 - [ ] html seção intermediaria do site
