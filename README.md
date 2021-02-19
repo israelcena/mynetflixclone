@@ -4,8 +4,8 @@ passo a passo para criação do clone do netflix
 - [x] implementação do html inicial
 - [ ] implementação do css.
   - [x] implementação de fonte aewsome para icones
-  - [ ] implementação do reset css
-  - [ ] implementação das classes
+  - [x] implementação do reset css
+  - [x] implementação das classes
 - [ ] html seção intermediaria do site
   - [ ] editar o html para tabs
   - [ ] inserir classes no css
