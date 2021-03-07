@@ -7,9 +7,9 @@ passo a passo para criação do clone do netflix
   - [x] implementação do reset css
   - [x] implementação das classes
 - [ ] html seção intermediaria do site
-  - [ ] editar o html para tabs
-  - [ ] inserir classes no css
-  - [ ] editar o conteudo das 'tabs'  
+  - [x] editar o html para tabs
+  - [x] inserir classes no css
+  - [ ] editar o conteudo das 'tabs' (html e css)  
 - [ ] adicionar html e css do footer
 - [ ] implementar media queries para dispositivos moveis
 - [ ] adicionar troca de classes para alternar entre opcoes
