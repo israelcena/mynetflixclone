@@ -19,6 +19,7 @@ body {
   font-family: 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #000;
+  color: #999;
 }
 
 ul {
@@ -109,10 +110,75 @@ img {
   margin: 0 0 2rem;
 }
 
+.tabs {
+  background: var(--dark-color);
+  padding-top: 1rem;
+  border-bottom: 3px solid #3d3d3d;
+}
+
+.tabs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tabs p {
+  font-size: 1.2rem;
+  padding-top: .5rem;
+}
+
+.tabs .container > div {
+  padding: 1.5rem 0;
+}
+
+.tabs .container > div:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.tab-border {
+  border-bottom: var(--primary-color) 4px solid;
+}
+
+.tabs-content {
+  padding: 3rem 0;
+  color: #fff;
+  background: #000;
+  height: 34rem;
+}
+
+#tab-1-content .tab-1-content-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#tab-1-content .tab-1-content-inner img {
+  width: 530px;
+}
+
+#tab-1-content .tab-1-content-inner div {
+  padding-top: 3rem;
+}
+
+
 /* Components */
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
 .btn {
   display: inline-block;
   background: var(--primary-color);
+  color: #fff;
   padding: .5rem 1.2rem;
   text-align: center;
   border: none;
@@ -134,4 +200,9 @@ img {
 
 .btn-rounded {
   border-radius: 5px;
+}
+
+.text-lg {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
